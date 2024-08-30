@@ -20,7 +20,6 @@ print("\x1b[38;5;228m")
 BOT_TOKEN = TG_BOT_TOKEN
 print('')
 CHAT_ID = input(' ID : ')
-webbrowser.open('https://t.me/ZZKGZ')
 bot = telebot.TeleBot(BOT_TOKEN)
 os.system('clear')
 script_version = '1.0.0'
@@ -31,12 +30,6 @@ print("\x1b[38;5;150m               Script programmed by Raven")
 text = "      Raven"
 fig = pyfiglet.Figlet(font='slant')
 formatted_text = fig.renderText(text)
-print("\x1b[38;5;99m" + formatted_text + "\x1b[0m")
-print("\x1b[38;5;228m")
-print('—'*25)
-print(''' • Its running, go to your bot and send /start  √  
-√    تم التشغيل، انتقل إلى البوت الخاص بك وأرسل /start ''')
-print('—'*26)
 class Checker:
     def __init__(self):
         self.good_ig = 0
