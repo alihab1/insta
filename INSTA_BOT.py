@@ -17,7 +17,7 @@ fig = pyfiglet.Figlet(font='slant')
 formatted_text = fig.renderText(text)
 print("\x1b[38;5;99m" + formatted_text + "\x1b[0m")
 print("\x1b[38;5;228m")
-BOT_TOKEN = input(' TOKEN : ')
+BOT_TOKEN = TG_BOT_TOKEN
 print('')
 CHAT_ID = input(' ID : ')
 webbrowser.open('https://t.me/ZZKGZ')
